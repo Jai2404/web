@@ -5,12 +5,7 @@ export const MenuItems = [
         cName :"nav-links",
         icon :"fa-solid fa-house-user",
     },
-    {
-        title : 'Top Headlines',
-        url : '/top-heading',
-        cName :"nav-links",
-        icon :"fa-solid fa-star",
-    },
+  
     {
         title : 'Politics',
         url : '/politics',

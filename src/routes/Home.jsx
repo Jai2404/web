@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import "../components/Hero.css"
+import NewDis from '../components/NewDis';
+import Footer from '../components/footer';
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
   btnClass="show"
   
   />
+  <NewDis />
+  <Footer/>
     </>
   )
 }
