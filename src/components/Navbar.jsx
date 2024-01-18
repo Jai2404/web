@@ -34,7 +34,7 @@ const Navbar = () => {
             </li>
           );
         })}
-        <button>Sign up</button>
+<button onclick="window.location.href='form.php'">Sign up</button>
       </ul>
     </nav>
   );

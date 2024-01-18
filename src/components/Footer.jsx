@@ -8,8 +8,8 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <div className="row">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/a.n.c.h.a.l_28?utm_source=qr&igsh=YjE5NDMyY2FhOQ=="><i className="fa-brands fa-instagram"></i></a>
+          <a href="#"><i className="fa-brands fa-facebook"></i></a>
           <a href="#"><i className="fa-brands fa-twitter"></i></a>
         </div>
 
