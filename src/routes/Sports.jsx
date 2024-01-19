@@ -15,7 +15,6 @@ const CardContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
 `;
-// ... (existing imports)
 
 const Card = styled.div`
   width: 300px;
@@ -32,15 +31,9 @@ const Card = styled.div`
   }
 `;
 
-const CardImageLink = styled.a`
-  width: 100%;
-  height: 200px;
-  display: block; /* Make it a block-level element to fill the entire container */
-`;
-
 const CardImage = styled.img`
   width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
 `;
 
@@ -92,15 +85,11 @@ const Sports = () => {
           {data.map((value, index) => (
             <a key={index} href={value.url} target="_blank" rel="noopener noreferrer">
               <Card>
-                <CardImageLink href={value.url} target="_blank" rel="noopener noreferrer">
-                  <CardImage src={value.urlToImage} alt="News" />
-                </CardImageLink>
+                <CardImage src={value.urlToImage} alt="News" />
                 <CardBody>
                   <h5>{value.title}</h5>
                   <p>{value.description}</p>
-                  <StyledButton>
-                    Read More
-                  </StyledButton>
+                 
                 </CardBody>
               </Card>
             </a>

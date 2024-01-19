@@ -88,9 +88,7 @@ const Politics = () => {
                 <CardBody>
                   <h5>{value.title}</h5>
                   <p>{value.description}</p>
-                  <StyledButton>
-                    Read More
-                  </StyledButton>
+                
                 </CardBody>
               </Card>
             </a>

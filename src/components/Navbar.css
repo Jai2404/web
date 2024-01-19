@@ -84,7 +84,14 @@ button:hover {
 .menu-icons {
   display: none;
 }
+.NavbarItem.scrolled {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
 
+.NavbarItem.scrolled.visible {
+  transform: translateY(0);
+}
 
 @media screen and (max-width: 850px) {
   .NavbarItem {
